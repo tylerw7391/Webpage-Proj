@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 2 Part 2</title>
+        <link rel = "stylesheet" type = "text/css" href = "As2Pt2Style.css">
+    </head>
+
+    <body>
+        <script src="as2Scr.js"></script>
+        <script>
+            var num = {number: 1};
+            public:
+            var numCh = [];
+        </script>
+        <h1 align = "center"><strong>This is part 2 of Assignment 2</strong></h1>
+        <hr />
+
+        <hr>
+
+        <table class="center" id="theTable">
+            <th>Input</th>
+            <th>Length of input</th>
+            <tr>
+                <td><input type="text" id="textInput0" size="20" placeholder="Enter Input:" oninput="displayText(document.getElementById('output0'), this.value)"></td>
+                <td><p id="output0" >0</p></td>
+            </tr>
+        </table>
+        <div class ="center">
+            <button class =button type="button" onclick="addCell(num)">Add Cell</button>
+            <button class =button2 type="button" onclick="removeCell(num)">Remove Cell</button>
+            <button class =button3 type="button" onclick="sort()">Sort</button>
+        </div>
+    </body>
+</html>
